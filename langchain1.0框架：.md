@@ -1718,7 +1718,7 @@ from loguru import logger
 def load_servers():
     with open('mcp.json', "r", encoding="utf-8") as file:
         data = json.load(file)
-        return data.get("fetch", {})
+        return data.get("mcpServers", {})
 
 # 3. 核心聊天函数（纯原生create_agent，无执行器）
 async def main() -> None:
