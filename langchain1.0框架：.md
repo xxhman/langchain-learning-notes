@@ -1198,7 +1198,7 @@ def get_weather(city_en: str) -> str:
 import dashscope
 from http import HTTPStatus
 
-dashscope.api_key = "sk-73718658396745019dab4f963be5e436Y"
+dashscope.api_key = ""
 
 input_text = "衣服的质量杠杠的"
 
